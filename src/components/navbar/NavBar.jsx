@@ -34,7 +34,7 @@ function NavBar() {
         </div>
       </div>
 
-      <div className="reorder-container">
+      {/* <div className="reorder-container">
         <FontAwesomeIcon icon={faHeart} color="white" />
         <div className="d-flex flex-column align-items-start">
           <span
@@ -45,7 +45,7 @@ function NavBar() {
           </span>
           <span className="text d-block">My Items</span>
         </div>
-      </div>
+      </div> */}
       <Link to="/auth" className="account-container">
         <FontAwesomeIcon icon={faUser} color="white" />
         <div className="d-flex flex-column align-items-start">

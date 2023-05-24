@@ -12,14 +12,18 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
+    "react-two-thumb-input-range": "^1.0.7",
     "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
