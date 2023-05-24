@@ -20,7 +20,7 @@ import Favorites from "./pages/favorites/Favorites.jsx";
 import Checkout from "./pages/checkout/Checkout.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <HashRouter>
     <NavBar />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -33,5 +33,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="*" element={<div>Error</div>} />
     </Routes>
     <Footer />
-  </BrowserRouter>
+  </HashRouter>
 );
